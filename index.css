@@ -16,7 +16,7 @@ body {
 h1 {
 
     width: 15%;
-    padding: 15px;
+    padding: 5px;
     color: #fff;
     border-collapse: collapse;
     text-align: center;
@@ -52,6 +52,16 @@ input[type="date"] {
     margin-left: 10px;
     margin-right: 10px;
 }
+input[type="password"] {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input[type="email"] {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 /*div che contiene l'iscrizione*/
 .iscrizione {
@@ -81,20 +91,30 @@ input[type="date"] {
 /*div che contengono i vari moduli (nome, nascita e genere)*/
 .nome {
     padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nascita {
     padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .gen {
     padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.email{
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pass{
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*p nei div dei modulic he danno il titolo*/

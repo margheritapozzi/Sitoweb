@@ -1,16 +1,16 @@
 body {
-    background-color: #0e2f47;
+    background-color: #f5e3cf;
 }
 
 /*menu*/
 .menu {
     display: flex;
-    background-color: #0e2f47;
+    background-color: #606C38;
     position: fixed;
     width: 100%;
     margin: none;
-    -webkit-box-shadow: 0px 7px 42px -5px #0C273C;
-    box-shadow: 0px 7px 42px -5px #0C273C;
+    -webkit-box-shadow: 0px 7px 42px -5px #4d562d;
+    box-shadow: 0px 7px 42px -5px #4d562d;
 }
 
 h1 {

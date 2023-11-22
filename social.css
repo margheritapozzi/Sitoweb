@@ -24,9 +24,9 @@
 div .facebook img{
     height: 60px;
     width: 80px;
-    position: absolute;
-    top: 1090px;
-    left: 700px;
+    position: relative;
+    top: 20px;
+    left: 35%;
     transition: all .2s ease;
 }
 div .facebook img:hover {
@@ -36,9 +36,9 @@ div .facebook img:hover {
 div .instagram img{
     height: 68px;
     width: 70px;
-    position: absolute;
-    top: 1086px;
-    left: 900px;
+    position: relative;
+    top: 24px;
+    left: 40%;
     transition: all .2s ease;
 }
 div .instagram img:hover {
@@ -48,9 +48,9 @@ div .instagram img:hover {
 div .youtube img{
     height: 55px;
     width: 70px;
-    position: absolute;
-    top: 1090px;
-    left: 1100px;
+    position: relative;
+    top: 20px;
+    left: 45%;
     transition: all .2s ease;
 }
 div .youtube img:hover {
@@ -62,9 +62,9 @@ div .youtube img:hover {
 div .twitter img{
     height: 60px;
     width: 70px;
-    position: absolute;
-    top: 1090px;
-    left: 1300px;
+    position: relative;
+    top: 20px;
+    left: 50%;
     transition: all .2s ease;
 }
 div .twitter img:hover {

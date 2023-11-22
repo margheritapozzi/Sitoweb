@@ -1,3 +1,24 @@
+/*font*/
+@font-face {
+    font-family: "light";
+    src: url(font/Kanit-Light.ttf);
+}
+
+@font-face {
+    font-family: "semi bold";
+    src: url(font/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(font/Kanit-Medium.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(font/Kanit-Regular.ttf);
+}
+
 .fotof {
     width: 100%;
     height: 500px;
@@ -12,7 +33,7 @@
     text-align: center;
     position: absolute;
     top: 280px;
-    left: 42.5%;
+    left: 35%;
     font-size: 75px;
     font-family: "semi bold";
     color: #fefcfa;
@@ -22,6 +43,7 @@
 .faq-testo {
     margin-left: 400px;
     margin-right: 400px;
+    padding-bottom: 30px;
 }
 
 .faq-testo h1{
@@ -60,4 +82,14 @@
     text-align:justify;
     font-family: "semi bold";
     color: #7e885e;
+}
+.contatti a{
+    padding: 20px 30px;
+    background-color: #c37b3b;
+    color: #fcfcfc;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 48%;
+    text-transform: uppercase;
+    text-align: center;
 }

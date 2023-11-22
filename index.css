@@ -171,13 +171,15 @@ img {
 }
 
 .contatti a{
-    padding: 20px;
+    padding: 20px 30px;
     background-color: #c37b3b;
     color: #fcfcfc;
     text-decoration: none;
     font-family: "meidum";
     font-size: 25px;
-    margin-left: 48%;
+    margin-left: 45%;
+    text-transform: uppercase;
+    text-align: center;
 }
 .contatti a:hover{
     background-color: #b06f35;

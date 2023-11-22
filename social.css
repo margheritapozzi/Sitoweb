@@ -1,0 +1,60 @@
+/*font*/
+@font-face {
+    font-family: "light";
+    src: url(font/Kanit-Light.ttf);
+}
+@font-face {
+    font-family: "semi bold";
+    src: url(font/Kanit-SemiBold.ttf);
+}
+@font-face {
+    font-family: "medium";
+    src: url(font/Kanit-Medium.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(font/Kanit-Regular.ttf);
+}
+/*seguici sui social*/
+.social{
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+}
+div .facebook img{
+    height: 60px;
+    width: 80px;
+    position: absolute;
+    top: 1050px;
+    left: 500px;
+}
+div .instagram img{
+    height: 68px;
+    width: 70px;
+    position: absolute;
+    top: 1046px;
+    left: 700px;
+}
+div .youtube img{
+    height: 55px;
+    width: 70px;
+    position: absolute;
+    top: 1050px;
+    left: 900px;
+}
+div .twitter img{
+    height: 60px;
+    width: 70px;
+    position: absolute;
+    top: 1050px;
+    left: 1100px;
+}
+
+.social h1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 300px;
+    font-family: "medium";
+    color: #606c38;
+    text-shadow: #30361c 1px 1px 1px;
+}

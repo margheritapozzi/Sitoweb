@@ -1,0 +1,193 @@
+
+/*nav*/
+.menu{
+    position:fixed;
+    top: 100px;
+    width: 100%;
+    background-color: #fcf6ef;
+    color: #585D35;
+    text-align: center;
+    z-index: 1;
+    display: none;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    color: #585D35;
+    text-decoration: none;
+    font-family: "regular";
+    font-size: 25px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav li{
+    display: inline-block;
+    padding: 15px;
+}
+nav li a:hover{
+    color: #3e4125;
+    text-decoration: underline;
+}
+nav li a:focus{
+    color: #3e4125;
+    text-decoration: underline;
+}
+/*Menu tendina parco*/
+
+.p-t{
+    position: absolute;
+    left: 0;
+    background-color: #fefcfa;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    display: none;
+}
+.p-t a{
+    display: block;
+}
+.p-t a:hover{
+    color: #3e4125;
+}
+.parco:hover ~ .p-t{
+    display: flex;
+}
+.parco:focus ~ .p-t{
+    display: flex;
+}
+
+.p-t .in li{
+    display: block;
+    padding: 10px;
+    margin-left: 20%;
+}
+.tit-t{
+    font-family: "medium";
+    font-size: 20px;
+    margin-top: 15px;
+}
+.p-t li a{
+    font-size: 18px;
+    font-family: "regular";
+    padding-left: 5px;
+}
+.p-t .per li{
+    display: block;
+    padding: 10px;
+}
+.in{
+    width: 20%;
+    padding-bottom: 10px;
+    margin-left: 35%;
+}
+.per{
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+/*Menu tendina animli*/
+.a-t{
+    position: absolute;
+    left: 0;
+    background-color: #fefcfa;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    display: none;
+    
+}
+.a-t a{
+    display: block;
+}
+.a-t a:hover{
+    color: #3e4125;
+}
+.animali:hover ~ .a-t{
+    display: flex;
+}
+.animali:focus ~ .a-t{
+    display: flex;
+}
+
+.a-t .in li{
+    display: block;
+    padding: 10px;
+    margin-left: 20%;
+}
+.tit-t{
+    font-family: "medium";
+    font-size: 20px;
+    margin-top: 15px;
+}
+.a-t li a{
+    font-size: 18px;
+    font-family: "regular";
+    padding-left: 5px;
+}
+.a-t .per li{
+    display: block;
+    padding: 10px;
+}
+.in{
+    width: 20%;
+    padding-bottom: 10px;
+    margin-left: 35%;
+}
+.per{
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+/*Menu tendina informaizoni*/
+.i-t{
+    position: absolute;
+    left: 0;
+    background-color: #fefcfa;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    display: none;
+}
+.i-t a{
+    display: block;
+}
+.i-t a:hover{
+    color: #3e4125;
+}
+.informazioni:hover ~ .i-t{
+    display: flex;
+}
+.informazioni:focus ~ .i-t{
+    display: flex;
+}
+
+.i-t .in li{
+    display: block;
+    padding: 10px;
+    margin-left: 20%;
+}
+.tit-t{
+    font-family: "medium";
+    font-size: 20px;
+    margin-top: 15px;
+}
+.i-t li a{
+    font-size: 18px;
+    font-family: "regular";
+    padding-left: 5px;
+}
+.i-t .per li{
+    display: block;
+    padding: 10px;
+}
+.in{
+    width: 20%;
+    padding-bottom: 10px;
+    margin-left: 45%;
+}

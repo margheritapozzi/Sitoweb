@@ -18,43 +18,64 @@
 /*seguici sui social*/
 .social{
     width: 100%;
-    height: 300px;
+    height: 235px;
     background-color: #ffffff;
 }
 div .facebook img{
     height: 60px;
     width: 80px;
     position: absolute;
-    top: 1050px;
-    left: 500px;
+    top: 1090px;
+    left: 700px;
+    transition: all .2s ease;
+}
+div .facebook img:hover {
+    padding-bottom: 15px;
+    border-bottom: 5px #1878F3 solid;
 }
 div .instagram img{
     height: 68px;
     width: 70px;
     position: absolute;
-    top: 1046px;
-    left: 700px;
+    top: 1086px;
+    left: 900px;
+    transition: all .2s ease;
+}
+div .instagram img:hover {
+    padding-bottom: 10px;
+    border-bottom: 5px #D72D7E solid;
 }
 div .youtube img{
     height: 55px;
     width: 70px;
     position: absolute;
-    top: 1050px;
-    left: 900px;
+    top: 1090px;
+    left: 1100px;
+    transition: all .2s ease;
 }
+div .youtube img:hover {
+    
+    padding-bottom: 19px;
+    border-bottom: 5px #FE0000 solid;
+}
+
 div .twitter img{
     height: 60px;
     width: 70px;
     position: absolute;
-    top: 1050px;
-    left: 1100px;
+    top: 1090px;
+    left: 1300px;
+    transition: all .2s ease;
 }
-
+div .twitter img:hover {
+    padding-bottom: 15px;
+    border-bottom: 5px #28A9E0 solid;
+}
 .social h1{
-    text-align: center;
+    padding-top: 15px;
     font-size: 40px;
-    margin-left: 300px;
+    text-align: center;
     font-family: "medium";
     color: #606c38;
-    text-shadow: #30361c 1px 1px 1px;
+    letter-spacing: 2px;
 }

@@ -1,0 +1,63 @@
+.fotof {
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.fotof h1 {
+    text-align: center;
+    position: absolute;
+    top: 280px;
+    left: 42.5%;
+    font-size: 75px;
+    font-family: "semi bold";
+    color: #fefcfa;
+    text-shadow: #3e4125 4px 4px 4px;
+}
+
+.faq-testo {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.faq-testo h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: "medium";
+    color: #b06f35;
+    letter-spacing: 2px;
+}
+.faq-testo h2{
+    font-size: 35px;
+    text-align: left;
+    font-family: "medium";
+    color: #b06f35;
+    letter-spacing: 2px;
+}
+.faq-testo h3{
+    font-size: 20px;
+    margin-left: 15px;
+    text-align: left;
+    font-family: "medium";
+    color: #c37b3b;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.faq-testo p{
+    font-size: 16px;
+    text-align:justify;
+    font-family: "light";
+    color: black;
+    margin-left: 25px;
+}
+
+.faq-testo a{
+    font-size: 18px;
+    text-align:justify;
+    font-family: "semi bold";
+    color: #7e885e;
+}

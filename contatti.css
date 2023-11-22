@@ -1,0 +1,80 @@
+
+
+.fotoc {
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.fotoc h1 {
+    text-align: center;
+    position: absolute;
+    top: 280px;
+    left: 42.5%;
+    font-size: 75px;
+    font-family: "semi bold";
+    color: #fefcfa;
+    text-shadow: #3e4125 4px 4px 4px;
+}
+
+.c-testo {
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.c-testo h1{
+    font-size: 55px;
+    font-family: "semi bold";
+    color: #606c38;
+    margin-bottom: 15px;
+}
+.c-testo h2{
+    font-size: 35px;
+    font-family: "semi bold";
+    color: #606c38;
+    margin-bottom: 50px;
+}
+.c-testo h2 a{
+    font-size: 35px;
+    font-family: "semi bold";
+    color: #c37b3b;
+    text-decoration: none;
+}
+.c-testo h2 a:hover{
+    color: #9c622f;
+}
+.c-testo p{
+    font-size: 20px;
+    font-family: "regular";
+    color: black;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+table .t{
+    padding: 15px;
+    width: 100px;
+    text-align: justify;
+    border: #606c38 2px solid;
+    font-family: "regular";
+}
+table .i{
+    color: #fefcfa;
+    background-color: #7e885e;
+    padding: 15px;
+    width: 250px;
+    text-align: justify;
+    border: #606c38 2px solid;
+    font-family: "semi bold";
+}
+table .i a{
+    color: #cf9562;
+}

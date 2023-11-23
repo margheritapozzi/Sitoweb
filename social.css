@@ -18,7 +18,7 @@
 /*seguici sui social*/
 .social{
     width: 100%;
-    height: 235px;
+    height: 240px;
     background-color: #ffffff;
 }
 div .facebook img{
@@ -26,7 +26,7 @@ div .facebook img{
     width: 80px;
     position: relative;
     top: 20px;
-    left: 35%;
+    left: 32.5%;
     transition: all .2s ease;
 }
 div .facebook img:hover {
@@ -38,7 +38,7 @@ div .instagram img{
     width: 70px;
     position: relative;
     top: 24px;
-    left: 40%;
+    left: 37.5%;
     transition: all .2s ease;
 }
 div .instagram img:hover {
@@ -50,7 +50,7 @@ div .youtube img{
     width: 70px;
     position: relative;
     top: 20px;
-    left: 45%;
+    left: 42.5%;
     transition: all .2s ease;
 }
 div .youtube img:hover {
@@ -64,7 +64,7 @@ div .twitter img{
     width: 70px;
     position: relative;
     top: 20px;
-    left: 50%;
+    left: 47.5%;
     transition: all .2s ease;
 }
 div .twitter img:hover {

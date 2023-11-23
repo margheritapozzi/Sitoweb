@@ -1,0 +1,20 @@
+.foto-p {
+    width: 100%;
+    height: 350px;
+    padding-top: 110px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.foto-p h1 {
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    left: 42.5%;
+    font-size: 80px;
+    font-family: "semi bold";
+    color: #fefcfa;
+    text-shadow: #283618 4px 4px 4px;
+}

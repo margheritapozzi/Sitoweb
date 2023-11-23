@@ -21,7 +21,7 @@
 
 .fotof {
     width: 100%;
-    height: 500px;
+    height: 430px;
     padding-top: 100px;
 }
 
@@ -32,17 +32,17 @@
 .fotof h1 {
     text-align: center;
     position: absolute;
-    top: 280px;
-    left: 35%;
+    top: 240px;
+    left: 31%;
     font-size: 75px;
     font-family: "semi bold";
     color: #fefcfa;
-    text-shadow: #3e4125 4px 4px 4px;
+    text-shadow: #4b2b0f 4px 4px 4px;
 }
 
 .faq-testo {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 350px;
+    margin-right: 350px;
     padding-bottom: 30px;
 }
 
@@ -67,10 +67,10 @@
     font-family: "medium";
     color: #c37b3b;
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    padding-bottom:5px;
 }
 .faq-testo p{
-    font-size: 16px;
+    font-size: 18px;
     text-align:justify;
     font-family: "light";
     color: black;
@@ -89,7 +89,7 @@
     color: #fcfcfc;
     text-decoration: none;
     font-size: 25px;
-    margin-left: 48%;
+    margin-left: 43.5%;
     text-transform: uppercase;
     text-align: center;
 }

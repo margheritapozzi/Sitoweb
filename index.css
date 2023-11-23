@@ -119,7 +119,7 @@ img {
 
 .fotoh {
     width: 100%;
-    height: 500px;
+    height: 450px;
     padding-top: 100px;
 }
 
@@ -148,7 +148,7 @@ img {
 
 .sev {
     font-size: 40px;
-    margin-left: 300px;
+    text-align: center;
     font-family: "medium";
     color: #ffffff;
     letter-spacing: 2px;
@@ -162,7 +162,7 @@ img {
 }
 .contatti h1{
     font-size: 40px;
-    margin-left: 35%;
+    text-align: center;
     font-family: "medium";
     color: #844c1a;
     letter-spacing: 2px;
@@ -177,7 +177,7 @@ img {
     text-decoration: none;
     font-family: "meidum";
     font-size: 25px;
-    margin-left: 45%;
+    margin-left: 43.5%;
     text-transform: uppercase;
     text-align: center;
 }

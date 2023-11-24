@@ -18,3 +18,159 @@
     color: #fefcfa;
     text-shadow: #283618 4px 4px 4px;
 }
+
+
+
+.prezzi{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 24%;
+    display: flex;
+}
+
+.prezzi a{
+    padding: 20px;
+    width: 210px;
+    background-color: #f1f1ed;
+    color: #5f5f5d;
+    border-top: 2px solid #8e8e8c;
+    border-bottom: 2px solid #8e8e8c;
+    border-left: 2px solid #8e8e8c;
+    text-align: center;
+    font-family: "medium";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.bg:hover{
+    background-color: white;
+    border-bottom: none;
+    color: #bc6c25;
+    border-top: #9c622f 3px solid;
+    border-left: #9c622f 3px solid;
+    border-right: #9c622f 3px solid;
+}
+.bg:focus{
+    background-color: white;
+    border-bottom: none;
+    color: #bc6c25;
+    border-top: #9c622f 3px solid;
+    border-left: #9c622f 3px solid;
+    border-right: #9c622f 3px solid;
+}
+
+.bg:hover{
+    display: block;
+}
+.bg:focus{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .prezzi .menu-b{
+    padding: 20px;
+    cursor: pointer;
+}
+.prezzi .b-btn{
+    display: none;
+}
+
+.prezzi .b-btn:checked ~ .giornaliero{
+    display: block;
+}
+
+.giornaliero{
+    position: relative;
+    top: 50px;
+    border: #283618 1px solid;
+    width: 100%;
+    display: none;
+}
+
+.prezzi .menu-b-i{
+    padding: 20px;
+    cursor: pointer;
+}
+.prezzi .b-i-btn{
+    display: none;
+}
+
+.prezzi .b-i-btn:checked ~ .invernale{
+    display: block;
+}
+
+.invernale{
+    padding: 20px;
+    background-color: #283618;
+    width: 200px;
+    display: none;
+}
+
+.prezzi .menu-b-s{
+    padding: 20px;
+    cursor: pointer;
+}
+.prezzi .b-s-btn{
+    display: none;
+}
+
+.prezzi .b-s-btn:checked ~ .scuole{
+    display: block;
+}
+
+.scuole{
+    padding: 20px;
+    background-color: #283618;
+    width: 200px;
+    display: none;
+}
+
+.prezzi .menu-b-g{
+    padding: 20px;
+    cursor: pointer;
+}
+.prezzi .b-g-btn{
+    display: none;
+}
+
+.prezzi .b-g-btn:checked ~ .gruppi{
+    display: block;
+}
+
+.gruppi{
+    padding: 20px;
+    background-color: #283618;
+    width: 200px;
+    display: none;
+} */

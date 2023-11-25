@@ -18,159 +18,89 @@
     color: #fefcfa;
     text-shadow: #283618 4px 4px 4px;
 }
-
-
-
-.prezzi{
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 24%;
-    display: flex;
+.p-b{
+    background-color: white;
+    padding: 40px;
 }
-
-.prezzi a{
-    padding: 20px;
-    width: 210px;
-    background-color: #f1f1ed;
-    color: #5f5f5d;
-    border-top: 2px solid #8e8e8c;
-    border-bottom: 2px solid #8e8e8c;
-    border-left: 2px solid #8e8e8c;
+.p-b h1{
+    font-size: 40px;
     text-align: center;
     font-family: "medium";
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.bg:hover{
-    background-color: white;
-    border-bottom: none;
     color: #bc6c25;
-    border-top: #9c622f 3px solid;
-    border-left: #9c622f 3px solid;
-    border-right: #9c622f 3px solid;
+    letter-spacing: 2px;
 }
-.bg:focus{
-    background-color: white;
-    border-bottom: none;
-    color: #bc6c25;
-    border-top: #9c622f 3px solid;
-    border-left: #9c622f 3px solid;
-    border-right: #9c622f 3px solid;
+.p-b p{
+    padding: 15px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: "regular";
 }
 
-.bg:hover{
-    display: block;
-}
-.bg:focus{
-    display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .prezzi .menu-b{
+.prezzi{
+    background-color: #566132;
+    margin: 0;
     padding: 20px;
-    cursor: pointer;
+    display: flex;
 }
-.prezzi .b-btn{
-    display: none;
-}
-
-.prezzi .b-btn:checked ~ .giornaliero{
-    display: block;
-}
-
-.giornaliero{
-    position: relative;
-    top: 50px;
-    border: #283618 1px solid;
-    width: 100%;
-    display: none;
-}
-
-.prezzi .menu-b-i{
-    padding: 20px;
-    cursor: pointer;
-}
-.prezzi .b-i-btn{
-    display: none;
-}
-
-.prezzi .b-i-btn:checked ~ .invernale{
-    display: block;
-}
-
-.invernale{
-    padding: 20px;
-    background-color: #283618;
-    width: 200px;
-    display: none;
-}
-
-.prezzi .menu-b-s{
-    padding: 20px;
-    cursor: pointer;
-}
-.prezzi .b-s-btn{
-    display: none;
-}
-
-.prezzi .b-s-btn:checked ~ .scuole{
-    display: block;
-}
-
-.scuole{
-    padding: 20px;
-    background-color: #283618;
-    width: 200px;
-    display: none;
-}
-
-.prezzi .menu-b-g{
-    padding: 20px;
-    cursor: pointer;
-}
-.prezzi .b-g-btn{
-    display: none;
-}
-
-.prezzi .b-g-btn:checked ~ .gruppi{
-    display: block;
-}
-
 .gruppi{
+    margin-top: 45px;
+    height: fit-content;
+    border: 2px solid #606c38;
     padding: 20px;
-    background-color: #283618;
-    width: 200px;
-    display: none;
-} */
+    background-color: #e9edc9;
+    margin-left: 70px;
+}
+.scuole{
+    margin-top: 45px;
+    height: fit-content;
+    border: 2px solid #606c38;
+    padding: 20px;
+    background-color: #e9edc9;
+}
+.giornaliero{
+    width: 550px;
+    border: 2px solid #606c38;
+    padding: 10px;
+    background-color: #e9edc9;
+    margin-left: 50px;
+}
+.prezzi h1{
+    padding: 20px;
+    margin: 0;
+    color: #566132;
+    text-align: center;
+    font-size: 35px;
+    font-family: "semi bold";
+}
+
+.gr h3{
+    margin: 0;
+    padding: 10px;
+    height: 30px;
+    padding-left: 15px;
+    color: #434c27;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "regular";
+}
+.pic {
+    margin: 0;
+    padding: 5px;
+    padding-left: 15px;
+    color: #30361c;
+    text-align: left;
+    font-size: 15px;
+    font-family: "light";
+}
+
+.gruppi p{
+    width: 350px;
+    margin: 0;
+    padding: 5px;
+    color: #30361c;
+    text-align: left;
+    font-size: 13px;
+    font-family: "light";
+}
+

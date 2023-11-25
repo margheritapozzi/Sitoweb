@@ -1,0 +1,41 @@
+.titolo{
+    padding-top: 110px;
+}
+
+.titolo h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: "semi bold";
+    color: #bc6c25;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: "medium";
+    color: #bc6c25;
+}
+
+.testo-pr h3{
+
+    text-align: left;
+    font-size: 18px;
+    color: #b06f35;
+    font-family: "medium";
+}
+.testo-pr{
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+    font-family: "light";
+}
+.testo-pr{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.testo-pr h4{
+
+    text-align: left;
+    font-size: 16px;
+    color: #b06f35;
+    font-family: "medium";
+}

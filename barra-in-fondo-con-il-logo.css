@@ -1,0 +1,21 @@
+.l-p-c{
+    height: 180px;
+}
+.l-p-c .logo{
+    height: 100px;
+    width: 110px;
+    position: relative;
+    top: 0px;
+    left: 45%;
+}
+.l-p-c a{
+    text-decoration: none;
+    font-family: "regular";
+    font-size: 17px;
+    color: #283618;
+    padding: 40px 20px;
+    text-align: center;
+}
+.l-p-c a:hover{
+    color: #bc6c25;
+}

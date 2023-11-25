@@ -1,5 +1,6 @@
 .l-p-c{
     height: 180px;
+    text-align: center;
 }
 .l-p-c .logo{
     height: 100px;
@@ -14,7 +15,6 @@
     font-size: 17px;
     color: #283618;
     padding: 40px 20px;
-    text-align: center;
 }
 .l-p-c a:hover{
     color: #bc6c25;

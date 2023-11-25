@@ -18,6 +18,8 @@
     color: #fefcfa;
     text-shadow: #283618 4px 4px 4px;
 }
+
+
 .p-b{
     background-color: white;
     padding: 40px;
@@ -40,7 +42,7 @@
 .prezzi{
     background-color: #566132;
     margin: 0;
-    padding: 20px;
+    padding: 50px 80px;
     display: flex;
 }
 .gruppi{
@@ -50,6 +52,7 @@
     padding: 20px;
     background-color: #e9edc9;
     margin-left: 70px;
+    margin-left: 8%;
 }
 .scuole{
     margin-top: 45px;
@@ -59,11 +62,11 @@
     background-color: #e9edc9;
 }
 .giornaliero{
-    width: 550px;
+    width: 600px;
     border: 2px solid #606c38;
     padding: 10px;
     background-color: #e9edc9;
-    margin-left: 50px;
+    margin-left: 8%;
 }
 .prezzi h1{
     padding: 20px;
@@ -103,4 +106,5 @@
     font-size: 13px;
     font-family: "light";
 }
+
 

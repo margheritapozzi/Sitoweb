@@ -1,3 +1,9 @@
+.casetta{
+    position: fixed;
+    top:130px;
+    left: 40px;
+}
+
 .foto-sav {
     width: 100%;
     height: 350px;
@@ -61,7 +67,6 @@ li {
 
 .s-an {
     background-color: #c98951;
-    padding: 10px;
 }
 
 .s-an h2 {
@@ -71,6 +76,7 @@ li {
     font-size: 60px;
     font-family: "semi bold";
     color: #f8f0e9;
+    background-color: #38200b;
 }
 
 .s-an h3 {
@@ -87,8 +93,8 @@ li {
     margin-left: 5%;
 }
 
-.erbivori .prima-r .bufalo{
-    margin: 0px 5%;
+.erbivori .prima-r .bufalo, .elefante, .giraffa, .gazzella, .ippo, .rino, .struzzo, .zebra{
+    margin: 0px 3%;
     background-color: #fefcfa;
     height: 250px;
     width: 250px;
@@ -97,11 +103,11 @@ li {
 .erbivori .prima-r .bufalo a{
     text-decoration: none;
     position: absolute;
-    top: 240%;
-    left: 12.5%;
+    top: 337%;
+    left: 10.5%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px;
+    padding: 45px 55px;
 }
 .erbivori .prima-r .bufalo a h4{
     color: #96561e;
@@ -114,21 +120,14 @@ li {
     opacity: 0;
 }
 
-.erbivori .prima-r .elefante{
-    margin: 0px 5%;
-    background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
 
 .erbivori .prima-r .elefante a{
     text-decoration: none;
     position: absolute;
     /* top: 2280px; */
-    top: 240%;
+    top: 337%;
     /* left: 1078px; */
-    left: 34.5%;
+    left: 32.7%;
     background-color: white;
     opacity: 0.9;
     padding: 45px;
@@ -146,21 +145,13 @@ li {
 
 
 
-.erbivori .prima-r .gazzella{
-    margin: 0px 5%;
-    background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
-
 .erbivori .prima-r .gazzella a{
     text-decoration: none;
     position: absolute;
     /* top: 2280px; */
-    top: 240%;
+    top: 337%;
     /* left: 1078px; */
-    left: 56.7%;
+    left: 54.6%;
     background-color: white;
     opacity: 0.9;
     padding: 45px;
@@ -177,23 +168,14 @@ li {
 }
 
 
-.erbivori .prima-r .giraffa{
-    margin: 0px 5%;
-    background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
 .erbivori .prima-r .giraffa a{
     text-decoration: none;
     position: absolute;
-    /* top: 2280px; */
-    top: 240%;
-    /* left: 1078px; */
-    left: 80%;
+    top: 337%;
+    left: 77%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px;
+    padding: 45px 55px;
 }
 .erbivori .prima-r .giraffa a h4{
     color: #96561e;
@@ -227,21 +209,14 @@ li {
     margin-bottom: 100px;
 }
 
-.erbivori .seconda-r .ippo{
-    margin: 0px 5%;
-    background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
 .erbivori .seconda-r .ippo a{
     text-decoration: none;
     position: absolute;
-    top: 279.5%;
-    left: 11.3%;
+    top: 388%;
+    left: 10.1%;
     background-color: white;
     opacity: 0.9;
-    padding: 40px 30px;
+    padding: 40px 23px;
 }
 .erbivori .seconda-r .ippo a h4{
     color: #96561e;
@@ -255,21 +230,15 @@ li {
 }
 
 
-.erbivori .seconda-r .rino{
-    margin: 0px 5%;
-    background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
+
 .erbivori .seconda-r .rino a{
     text-decoration: none;
     position: absolute;
-    top: 279.5%;
-    left: 33.8%;
+    top: 388%;
+    left: 32.3%;
     background-color: white;
     opacity: 0.9;
-    padding: 40px 30px;
+    padding: 40px 23px;
 }
 .erbivori .seconda-r .rino a h4{
     color: #96561e;
@@ -283,22 +252,14 @@ li {
 }
 
 
-
-.erbivori .seconda-r .struzzo{
-    margin: 0px 5%;
-    background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
 .erbivori .seconda-r .struzzo a{
     text-decoration: none;
     position: absolute;
-    top: 279%;
-    left: 57.2%;
+    top: 388%;
+    left: 54.8%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px;
+    padding: 42px 50px;
 }
 .erbivori .seconda-r .struzzo a h4{
     color: #96561e;
@@ -313,21 +274,14 @@ li {
 
 
 
-.erbivori .seconda-r .zebra{
-    margin: 0px 5%;
-    background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
 .erbivori .seconda-r .zebra a{
     text-decoration: none;
     position: absolute;
-    top: 279%;
-    left: 79.5%;
+    top: 388%;
+    left: 77%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px 60px;
+    padding: 42px 60px;
 }
 .erbivori .seconda-r .zebra a h4{
     color: #96561e;

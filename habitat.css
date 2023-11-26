@@ -1,0 +1,145 @@
+.casetta{
+    position: fixed;
+    top:130px;
+    left: 40px;
+}
+
+.foto-hab {
+    width: 100%;
+    height: 380px;
+    padding-top: 110px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.foto-hab h1 {
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    left: 39.5%;
+    font-size: 80px;
+    font-family: "semi bold";
+    color: #fefcfa;
+    text-shadow: #30361c 4px 4px 4px;
+}
+
+.h-spieg {
+    padding: 20px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.h-spieg .h-tit-s{
+    text-align: center;
+    margin: 0;
+    font-family: "regular";
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.h-spieg h2 {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "semi bold";
+    color: #3e5f2b;
+}
+
+.h-spieg h3 {
+    text-align: left;
+    font-size: 35px;
+    font-family: "semi bold";
+    color: #3e5f2b;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.h-spieg p,
+ul,
+li {
+    padding-left: 15px;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    font-family: "light";
+    list-style-type: none;
+    margin: 0;
+    padding: 2px 20px;
+}
+
+.h-spieg{
+    font-family: "regular";
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.h-spieg h4{
+    text-align: left;
+    font-size: 25px;
+    font-family: "semi bold";
+    color: #3e5f2b;
+    margin: 0;
+    padding: 10px;
+}
+.h-spieg h5{
+    text-align: left;
+    font-size: 20px;
+    font-family: "semi bold";
+    color: #476d31;
+    margin: 0;
+    padding: 10px;
+}
+
+.s-an {
+    background-color: #6a9450;
+    height: 700px;
+}
+
+
+.s-an h3 {
+    padding:20px;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 50px;
+    font-family: "semi bold";
+    color: white;
+}
+
+.erbivori .prima-r{
+    display: flex;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.erbivori .prima-r .bufalo, .elefante, .giraffa, .gazzella, .ippo, .rino, .struzzo, .zebra{
+    margin: 0px 3%;
+    background-color: #fefcfa;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+/* .erbivori .prima-r .bufalo a{
+    text-decoration: none;
+    position: absolute;
+    top: 337%;
+    left: 10.5%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 45px 55px;
+}
+.erbivori .prima-r .bufalo a h4{
+    color: #96561e;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .prima-r .bufalo a:hover{
+    opacity: 0;
+} */
+
+

@@ -1,15 +1,23 @@
 .casetta{
-    position: fixed;
-    top:130px;
+    position: absolute;
+    top:500px;
     left: 40px;
-    z-index: 3;
 }
 
+.freccia{
+    position: absolute;
+    top:500px;
+    right: 40px;
+    transform: rotate(90deg);
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #f6f8f8;
+    box-shadow: -1px  3px 10px 6px rgba(210,213,213,0.58);
+}
 .foto-man {
     width: 100%;
     height: 350px;
     padding-top: 110px;
-    z-index: 2;
 }
 
 .cover {
@@ -24,8 +32,7 @@
     font-size: 80px;
     font-family: "semi bold";
     color: #fefcfa;
-    text-shadow: #30361c 4px 4px 4px;
-    z-index: 1;
+    text-shadow: #30361c 4px 4px 2px;
 }
 
 .s-spieg {
@@ -40,14 +47,14 @@
     text-align: center;
     font-size: 60px;
     font-family: "semi bold";
-    color: #283618;
+    color: #274e46;
 }
 
 .s-spieg h3 {
     text-align: left;
     font-size: 30px;
     font-family: "semi bold";
-    color: #283618;
+    color: #274e46;
 }
 
 .s-spieg p,

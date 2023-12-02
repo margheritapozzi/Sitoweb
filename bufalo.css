@@ -2,7 +2,7 @@
 
 
 .freccia{
-    position: fixed;
+    position: absolute;
     top:130px;
     left: 40px;
     transform: rotate(180deg);

@@ -57,6 +57,13 @@
     color: #274e46;
 }
 
+.punti li{
+ list-style-type:circle;
+}
+.punti li strong{
+    color: #274e46;
+    font-family: "regular";
+}
 .s-spieg p,
 ul,
 li {

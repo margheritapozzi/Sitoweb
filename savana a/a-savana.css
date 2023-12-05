@@ -55,8 +55,8 @@ h2{
     background-color: #d09866;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 20px;
-    height: 1100px;
+    padding-bottom: 80px;
+    padding-top: 40px;
 }
 
 .n-b h1{
@@ -64,22 +64,18 @@ h2{
     font-size: 50px;
     font-family: "semi bold";
     color: #f8f0e9;
-}
-.n-b p{
-    font-family: "regular";
-    text-align: center;
-    font-size: 20px;
+    margin: 0;
 }
 
 .prima-r{
     display: flex;
     padding: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .prima-r .buf{
     margin: 20px 3%;
-    height: 250px;
-    width: 250px;
+    height: 210px;
+    width: 210px;
 }
 h4{
     text-align: center;

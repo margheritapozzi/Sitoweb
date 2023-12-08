@@ -18,6 +18,7 @@
     font-size: 70px;
     font-family: "semi bold";
     color: #bc6c25;
+    text-shadow: 1px 1px 4px rgba(135,78,26,0.84);
 }
 
 
@@ -32,6 +33,7 @@ h2{
     font-size: 30px;
     font-family: "semi bold";
     color: #bc6c25;
+    text-shadow: 1px 1px 3px rgba(135,78,26,0.5);
 }
 
 .t-buf p{
@@ -64,23 +66,27 @@ h2{
     font-size: 50px;
     font-family: "semi bold";
     color: #f8f0e9;
+    text-shadow: 1px 3px 5px rgba(118,68,23,0.76);
     margin: 0;
 }
 
 .prima-r{
     display: flex;
     padding: 10px;
-    margin-left: 10%;
+    margin-left: 11%;
 }
 .prima-r .buf{
     margin: 20px 3%;
     height: 210px;
     width: 210px;
+    
+    box-shadow: 0px 5px 17px -2px #874e1a;
 }
 h4{
     text-align: center;
     font-size: 25px;
     font-family: "semi bold";
+    text-shadow: 1px 1px 3px rgba(135,78,26,0.5);
     color: #f8f0e9;
     margin: 0;
     padding: 10px;

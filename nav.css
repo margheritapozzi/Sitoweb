@@ -1,4 +1,3 @@
-
 /*nav*/
 .menu{
     position:fixed;
@@ -20,7 +19,7 @@ nav ul{
 nav li a{
     color: #585D35;
     text-decoration: none;
-    font-family: "regular";
+    font-family: "medium";
     font-size: 25px;
     
     padding-left: 20px;
@@ -42,147 +41,109 @@ nav li a:focus{
 
 .p-t{
     position: absolute;
-    left: 0;
-    background-color: #fefcfa;
-    margin-top: 15px;
-    padding: 20px 50px;
+    top: 66px;
+    left: 350px;
     text-align: left;
+    padding:0 20px;
+    display: flex;
+    background-color: #fefbf7;
     display: none;
+    border-radius: 0 0 15px 15px;
 }
-.p-t a{
-    display: block;
-}
-.p-t a:hover{
-    color: #3e4125;
-}
-.parco:hover ~ .p-t{
-    display: flex;
-}
-.parco:focus ~ .p-t{
-    display: flex;
-}
-
-.p-t .in li{
-    display: block;
-    padding: 10px;
-}
-.tit-t{
-    font-family: "medium";
-    font-size: 20px;
-    margin-top: 15px;
-}
-.p-t li a{
-    font-size: 18px;
+.p-t ul li a{
     font-family: "regular";
-    padding-left: 5px;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.p-t .per li{
+.p-t ul li{
     display: block;
-    padding: 10px;
 }
-/* .in{
-    width: 20%;
-    padding-bottom: 10px;
-    margin-left: 35%;
+.p-t .in{
+    margin: 0;
+    padding:0 20px;
 }
-.per{
-    width: 20%;
-    padding-bottom: 10px;
-} */
+.p-t .per{
+    margin: 0;
+    padding:0 20px;
+}
+.p-t h4{
+    margin-bottom: 0;
+    font-family: "regular";
+    font-size: 20px;
+}
 
 /*Menu tendina animli*/
 .a-t{
     position: absolute;
-    left: 0;
-    background-color: #fefcfa;
-    margin-top: 15px;
-    width: 100%;
+    top: 66px;
+    left: 550px;
+    padding:0 20px;
     text-align: left;
+    display: flex;
+    background-color: #fefbf7;
     display: none;
-    
+    border-radius: 0 0 15px 15px;
 }
-.a-t a{
-    display: block;
-}
-.a-t a:hover{
-    color: #3e4125;
-}
-.animali:hover ~ .a-t{
-    display: flex;
-}
-.animali:focus ~ .a-t{
-    display: flex;
-}
-
-.a-t .in li{
-    display: block;
-    padding: 10px;
-    margin-left: 20%;
-}
-.tit-t{
-    font-family: "medium";
-    font-size: 20px;
-    margin-top: 15px;
-}
-.a-t li a{
-    font-size: 18px;
+.a-t ul li a{
     font-family: "regular";
-    padding-left: 5px;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.a-t .per li{
+.a-t ul li{
     display: block;
-    padding: 10px;
 }
-.in{
-    width: 20%;
-    padding-bottom: 10px;
-    margin-left: 35%;
+.a-t .in{
+    margin: 0;
+    padding:0 20px;
 }
-.per{
-    width: 20%;
-    padding-bottom: 10px;
+.a-t .per{
+    margin: 0;
+    padding:0 20px;
+}
+.a-t h4{
+    margin-bottom: 0;
+    font-family: "regular";
+    font-size: 20px;
 }
 
 /*Menu tendina informaizoni*/
 .i-t{
     position: absolute;
-    left: 0;
-    background-color: #fefcfa;
-    margin-top: 15px;
-    width: 100%;
+    top: 66px;
+    left: 890px;
+    padding:0 20px;
     text-align: left;
+    display: flex;
+    background-color: #fefbf7;
     display: none;
+    border-radius: 0 0 15px 15px;
 }
-.i-t a{
-    display: block;
-}
-.i-t a:hover{
-    color: #3e4125;
-}
-
-.i-t .in li{
-    display: block;
-    padding: 10px;
-    margin-left: 20%;
-}
-.tit-t{
-    font-family: "medium";
-    font-size: 20px;
-    margin-top: 15px;
-}
-.i-t li a{
-    font-size: 18px;
+.i-t ul li a{
     font-family: "regular";
-    padding-left: 5px;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.i-t .per li{
+.i-t ul li{
     display: block;
-    padding: 10px;
 }
-.in{
-    width: 20%;
-    padding-bottom: 10px;
-    margin-left: 45%;
+.i-t .in{
+    margin: 0;
+    padding:0 20px;
+}
+.i-t .per{
+    margin: 0;
+    padding:0 20px;
+}
+.i-t h4{
+    margin-bottom: 0;
+    font-family: "regular";
+    font-size: 20px;
 }
 
 

@@ -110,10 +110,10 @@ li {
 .erbivori .prima-r{
     display: flex;
     padding: 10px;
-    margin-left: 9%;
+    margin-left: 11%;
 }
 
-.erbivori .prima-r .bufalo, .elefante, .giraffa, .ippo, .leo, .par, .struzzo, .zebra{
+.erbivori .cas, .coc, .lam, .lon, .orn, .pro, .tar, .var{
     margin: 0px 3%;
     background-color: #fefcfa;
     height: 210px;
@@ -121,87 +121,87 @@ li {
     text-align: center;
     box-shadow: 0px 5px 17px -2px #172f2a;
 }
-.erbivori .prima-r .bufalo a{
+.erbivori .prima-r .cas a{
     text-decoration: none;
     position: absolute;
-    top: 311.6%;
-    left: 13.6%;
+    top: 321.7%;
+    left: 15.15%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 42px;
+    padding: 27px 38px;
 }
-.erbivori .prima-r .bufalo a h4{
+.erbivori .prima-r .cas a h4{
     color: #274e46;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .bufalo a:hover{
+.erbivori .prima-r .cas a:hover{
     opacity: 0;
 }
 
 
-.erbivori .prima-r .elefante a{
+.erbivori .prima-r .coc a{
     text-decoration: none;
     position: absolute;
-    top: 311.6%;
-    left: 32.7%;
+    top: 321.7%;
+    left: 34.3%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 33px;
+    padding: 27px 13px;
 }
-.erbivori .prima-r .elefante a h4{
+.erbivori .prima-r .coc a h4{
     color: #274e46;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .elefante a:hover{
+.erbivori .prima-r .coc a:hover{
     opacity: 0;
 }
 
 
 
-.erbivori .prima-r .giraffa a{
+.erbivori .prima-r .lam a{
     text-decoration: none;
     position: absolute;
-    top: 311.6%;
-    left: 51.9%;
+    top: 321.7%;
+    left: 53.55%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 43px;
+    padding: 27px 17px;
 }
-.erbivori .prima-r .giraffa a h4{
+.erbivori .prima-r .lam a h4{
     color: #274e46;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .giraffa a:hover{
+.erbivori .prima-r .lam a:hover{
     opacity: 0;
 }
 
 
-.erbivori .prima-r .ippo a{
+.erbivori .prima-r .lon a{
     text-decoration: none;
     position: absolute;
-    top: 311.6%;
-    left: 71.1%;
+    top: 321.7%;
+    left: 72.75%;
     background-color: white;
     opacity: 0.9;
-    padding: 30px 13px;
+    padding: 30px 48px;
 }
-.erbivori .prima-r .ippo a h4{
+.erbivori .prima-r .lon a h4{
     color: #274e46;
     font-family: "medium";
     font-size: 28px;
     text-align: center;
 }
 
-.erbivori .prima-r .ippo a:hover{
+.erbivori .prima-r .lon a:hover{
     opacity: 0;
 }
 
@@ -217,91 +217,91 @@ li {
 .erbivori .seconda-r{
     display: flex;
     padding: 10px;
-    margin-left: 9%;
+    margin-left: 11%;
     margin-top: 40px;
     padding-bottom: 70px;
 }
 
-.erbivori .seconda-r  .leo a{
+.erbivori .seconda-r  .orn a{
     text-decoration: none;
     position: absolute;
-    top: 347.8%;
-    left: 13.6%;
+    top: 358.2%;
+    left: 15.15%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 45px;
+    padding: 27px 13px;
 }
-.erbivori .seconda-r  .leo a h4{
+.erbivori .seconda-r  .orn a h4{
     color: #274e46;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r  .leo a:hover{
+.erbivori .seconda-r  .orn a:hover{
     opacity: 0;
 }
 
 
-.erbivori .seconda-r  .par a{
+.erbivori .seconda-r  .pro a{
     text-decoration: none;
     position: absolute;
-    top: 347.8%;
-    left: 32.5%;
+    top: 358.2%;
+    left: 34.35%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 25px;
+    padding: 27px 31px;
 }
-.erbivori .seconda-r  .par a h4{
+.erbivori .seconda-r  .pro a h4{
     color: #274e46;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r  .par a:hover{
+.erbivori .seconda-r  .pro a:hover{
     opacity: 0;
 }
 
 
 
-.erbivori .seconda-r  .struzzo a{
+.erbivori .seconda-r  .tar a{
     text-decoration: none;
     position: absolute;
-    top: 347.8%;
-    left: 51.7%;
+    top: 358.2%;
+    left: 53.5%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 26px;
+}
+.erbivori .seconda-r  .tar a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r  .tar a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .seconda-r  .var a{
+    text-decoration: none;
+    position: absolute;
+    top: 358.2%;
+    left: 72.75%;
     background-color: white;
     opacity: 0.9;
     padding: 27px 40px;
 }
-.erbivori .seconda-r  .struzzo a h4{
+.erbivori .seconda-r  .var a h4{
     color: #274e46;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r  .struzzo a:hover{
-    opacity: 0;
-}
-
-
-.erbivori .seconda-r  .zebra a{
-    text-decoration: none;
-    position: absolute;
-    top: 347.8%;
-    left: 71.1%;
-    background-color: white;
-    opacity: 0.9;
-    padding: 27px 50px;
-}
-.erbivori .seconda-r  .zebra a h4{
-    color: #274e46;
-    font-family: "medium";
-    font-size: 30px;
-    text-align: center;
-}
-
-.erbivori .seconda-r .zebra a:hover{
+.erbivori .seconda-r .var a:hover{
     opacity: 0;
 }

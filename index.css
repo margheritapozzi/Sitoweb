@@ -358,6 +358,7 @@ img {
     text-align: center;
     font-family: "medium";
     color: #844c1a;
+    text-shadow: 1px 1px 4px rgba(135,78,26,0.84);
     letter-spacing: 2px;
     text-transform: uppercase;
     padding-bottom: 40px;

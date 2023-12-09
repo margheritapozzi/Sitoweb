@@ -1,114 +1,115 @@
-
-
-
-.freccia{
+.freccia {
     position: absolute;
-    top:130px;
+    top: 130px;
     left: 40px;
     transform: rotate(180deg);
 }
+
 .a-fre {
-    
     transform: rotate(-90deg);
     padding: 8px;
     border-radius: 50px;
-    background-color: #c37b3b;
-    box-shadow: -1px 3px 10px 6px rgba(132, 76, 26, 0.58);
+    background-color: #7d9590;
+    box-shadow: -1px 3px 10px 6px rgba(35, 70, 63, 0.58);
 }
 
-.titolo{
+
+.titolo {
     padding-top: 110px;
 }
 
-.titolo h1{
+.titolo h1 {
     text-align: center;
     font-size: 70px;
     font-family: "semi bold";
-    color: #bc6c25;
-    text-shadow: 1px 1px 4px rgba(135,78,26,0.84);
+    color: #274e46;
+    text-shadow: 1px 1px 4px rgba(27, 55, 49, 0.84);
 }
 
 
 
-.t-buf{
+.t-buf {
     margin-left: 250px;
     margin-right: 250px;
 }
 
-h2{
+h2 {
     text-align: left;
     font-size: 30px;
     font-family: "semi bold";
-    color: #bc6c25;
-    text-shadow: 1px 1px 3px rgba(135,78,26,0.5);
+    color: #274e46;
+    text-shadow: 1px 1px 3px rgba(27, 55, 49, 0.5);
 }
 
-.t-buf p{
-    padding:0px 15px;
+.t-buf p {
+    padding: 0px 15px;
     text-align: justify;
     font-size: 18px;
     font-family: "light";
 }
 
-.foto{
-    background-color: #bc6c25;
+.foto {
     width: 700px;
     height: 400px;
     margin-left: 27%;
 }
-.foto img{
+
+.foto img {
     object-fit: cover;
 }
 
-.n-b{
-    background-color: #d09866;
+.n-b {
+    background-color: #3d6059;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 80px;
     padding-top: 40px;
 }
 
-.n-b h1{
+.n-b h1 {
     text-align: center;
     font-size: 50px;
     font-family: "semi bold";
     color: #f8f0e9;
-    text-shadow: 1px 3px 5px rgba(118,68,23,0.76);
+    text-shadow: 1px 3px 5px rgba(27, 55, 49, 0.76);
     margin: 0;
 }
 
-.prima-r{
+.prima-r {
     display: flex;
     padding: 10px;
     margin-left: 11%;
 }
-.prima-r .buf{
+
+.prima-r .buf {
     margin: 20px 3%;
     height: 210px;
     width: 210px;
-    
-    box-shadow: 0px 5px 17px -2px #874e1a;
+    box-shadow: 0px 5px 17px -2px #172f2a;
 }
-h4{
+
+h4 {
     text-align: center;
     font-size: 25px;
     font-family: "semi bold";
-    text-shadow: 1px 1px 3px rgba(135,78,26,0.5);
+    text-shadow: 1px 3px 5px rgba(27, 55, 49, 0.76);
     color: #f8f0e9;
     margin: 0;
     padding: 10px;
 }
-.prima-r p{
+
+.prima-r p {
     font-family: "light";
     text-align: center;
     font-size: 15px;
     margin: 0;
 }
 
-ul li p strong{
+ul li p strong {
     font-family: "regular";
-    color: #ad5e1a;
+    color: #274e46;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }

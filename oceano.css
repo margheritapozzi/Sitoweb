@@ -48,6 +48,7 @@
     font-size: 60px;
     font-family: "semi bold";
     color: #04526d;
+    text-shadow: 1px 1px 4px rgba(2, 49, 65,0.84);
 }
 
 .s-spieg h3 {
@@ -55,6 +56,7 @@
     font-size: 30px;
     font-family: "semi bold";
     color: #04526d;
+    text-shadow: 1px 1px 3px rgba(2, 49, 65,0.5);
 }
 
 .s-spieg p,
@@ -82,11 +84,12 @@ li {
 .s-an h2 {
     margin: 0;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     text-align: center;
     font-size: 65px;
     font-family: "semi bold";
     color: #f8f0e9;
+    text-shadow: 1px 3px 5px rgba(2, 49, 65,0.76);
 }
 
 .s-an h3 {
@@ -97,105 +100,111 @@ li {
     font-family: "semi bold";
     color: #f8f0e9;
 }
+.s-spieg .t-st{
+    color: #023a4d;
+    font-family: "regular";
+}
 
 .erbivori .prima-r{
     display: flex;
     padding: 10px;
-    margin-left: 5%;
+    margin-left: 11%;
+    margin-top: 40px;
 }
 
-.erbivori .prima-r .bufalo, .elefante, .giraffa, .gazzella, .ippo, .rino, .struzzo, .zebra{
+.erbivori .bal, .bel, .delf, .foca, .manta, .med, .orca, .ping, .pesci, .pol, .squa, .tart{
     margin: 0px 3%;
     background-color: #fefcfa;
-    height: 250px;
-    width: 250px;
+    height: 210px;
+    width: 210px;
     text-align: center;
+    box-shadow: 0px 5px 17px -2px #023141;
 }
-.erbivori .prima-r .bufalo a{
+
+
+
+
+.erbivori .prima-r .bal a{
     text-decoration: none;
     position: absolute;
-    top: 330%;
-    left: 10.2%;
+    top: 260%;
+    left: 15.5%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px 55px;
+    padding: 27px 40px;
 }
-.erbivori .prima-r .bufalo a h4{
-    color: #96561e;
+.erbivori .prima-r .bal a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .bufalo a:hover{
+.erbivori .prima-r .bal a:hover{
     opacity: 0;
 }
 
 
-.erbivori .prima-r .elefante a{
+.erbivori .prima-r .bel a{
     text-decoration: none;
     position: absolute;
-    /* top: 2280px; */
-    top: 330%;
-    /* left: 1078px; */
-    left: 32.2%;
+    top: 260%;
+    left: 34.5%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px;
+    padding: 27px 42px;
 }
-.erbivori .prima-r .elefante a h4{
-    color: #96561e;
+.erbivori .prima-r .bel a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .elefante a:hover{
+.erbivori .prima-r .bel a:hover{
     opacity: 0;
 }
 
 
 
-.erbivori .prima-r .gazzella a{
+.erbivori .prima-r .delf a{
     text-decoration: none;
     position: absolute;
-    /* top: 2280px; */
-    top: 330%;
-    /* left: 1078px; */
-    left: 54.1%;
+    top: 260%;
+    left: 53.6%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px;
+    padding: 27px 42px;
 }
-.erbivori .prima-r .gazzella a h4{
-    color: #96561e;
+.erbivori .prima-r .delf a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .gazzella a:hover{
+.erbivori .prima-r .delf a:hover{
     opacity: 0;
 }
 
 
-.erbivori .prima-r .giraffa a{
+.erbivori .prima-r .foca a{
     text-decoration: none;
     position: absolute;
-    top: 330%;
-    left: 76.5%;
+    top: 260%;
+    left: 72.6%;
     background-color: white;
     opacity: 0.9;
-    padding: 45px 55px;
+    padding: 27px 59px;
 }
-.erbivori .prima-r .giraffa a h4{
-    color: #96561e;
+.erbivori .prima-r .foca a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .giraffa a:hover{
+.erbivori .prima-r .foca a:hover{
     opacity: 0;
 }
 
@@ -215,92 +224,187 @@ li {
 .erbivori .seconda-r{
     display: flex;
     padding: 10px;
-    margin-left: 5%;
-    margin-top: 100px;
-    padding-bottom: 100px;
+    margin-left: 11%;
+    margin-top: 40px;
 }
 
-.erbivori .seconda-r .ippo a{
+.erbivori .seconda-r .manta a{
     text-decoration: none;
     position: absolute;
-    top: 381%;
-    left: 9.7%;
+    top: 296.7%;
+    left: 15.5%;
     background-color: white;
     opacity: 0.9;
-    padding: 40px 23px;
+    padding: 26px 45px;
 }
-.erbivori .seconda-r .ippo a h4{
-    color: #96561e;
+.erbivori .seconda-r .manta a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r .ippo a:hover{
+.erbivori .seconda-r .manta a:hover{
     opacity: 0;
 }
 
 
 
-.erbivori .seconda-r .rino a{
+.erbivori .seconda-r .med a{
     text-decoration: none;
     position: absolute;
-    top: 381%;
-    left: 31.9%;
+    top: 296.6%;
+    left: 34.55%;
     background-color: white;
     opacity: 0.9;
-    padding: 40px 23px;
+    padding: 26px 36px;
 }
-.erbivori .seconda-r .rino a h4{
-    color: #96561e;
+.erbivori .seconda-r .med a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r .rino a:hover{
+.erbivori .seconda-r .med a:hover{
     opacity: 0;
 }
 
 
-.erbivori .seconda-r .struzzo a{
+.erbivori .seconda-r .orca a{
     text-decoration: none;
     position: absolute;
-    top: 381%;
-    left: 54.3%;
+    top: 296.6%;
+    left: 53.6%;
     background-color: white;
     opacity: 0.9;
-    padding: 42px 50px;
+    padding: 27px 58px;
 }
-.erbivori .seconda-r .struzzo a h4{
-    color: #96561e;
+.erbivori .seconda-r .orca a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r .struzzo a:hover{
+.erbivori .seconda-r .orca a:hover{
     opacity: 0;
 }
 
 
 
-.erbivori .seconda-r .zebra a{
+.erbivori .seconda-r .pesci a{
     text-decoration: none;
     position: absolute;
-    top: 381%;
-    left: 76.5%;
+    top: 296.6%;
+    left: 72.8%;
     background-color: white;
     opacity: 0.9;
-    padding: 42px 60px;
+    padding: 27px 51px;
 }
-.erbivori .seconda-r .zebra a h4{
-    color: #96561e;
+.erbivori .seconda-r .pesci a h4{
+    color: #04526d;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r .zebra a:hover{
+.erbivori .seconda-r .pesci a:hover{
+    opacity: 0;
+}
+
+
+
+
+.erbivori .terza-r{
+    display: flex;
+    padding: 10px;
+    margin-left: 11%;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+
+.erbivori .terza-r .ping a{
+    text-decoration: none;
+    position: absolute;
+    top: 332.8%;
+    left: 15.25%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 26px 33px;
+}
+.erbivori .terza-r .ping a h4{
+    color: #04526d;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .terza-r .ping a:hover{
+    opacity: 0;
+}
+
+
+
+.erbivori .terza-r .pol a{
+    text-decoration: none;
+    position: absolute;
+    top: 332.8%;
+    left: 34.6%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 26px 47px;
+}
+.erbivori .terza-r .pol a h4{
+    color: #04526d;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .terza-r .pol a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .terza-r .squa a{
+    text-decoration: none;
+    position: absolute;
+    top: 332.8%;
+    left: 53.6%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 48px;
+}
+.erbivori .terza-r .squa a h4{
+    color: #04526d;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .terza-r .squa a:hover{
+    opacity: 0;
+}
+
+
+
+.erbivori .terza-r .tart a{
+    text-decoration: none;
+    position: absolute;
+    top: 332.8%;
+    left: 72.8%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 24px;
+}
+.erbivori .terza-r .tart a h4{
+    color: #04526d;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .terza-r .tart a:hover{
     opacity: 0;
 }

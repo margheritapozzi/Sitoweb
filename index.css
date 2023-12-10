@@ -140,9 +140,11 @@ img {
 }
 
 .welcome{
-    padding: 30px;
-    padding-bottom: 60px;
+    margin: 50px 120px;
+    padding: 40px;
     display: flex;
+    background-color: #eff0eb;
+    box-shadow: 0px 8px 13px 0px rgba(77, 86, 45, 0.65);
 }
 .welcome h3{
     padding: 20px;
@@ -163,12 +165,17 @@ img {
 
 }
 .welcome div{
-    margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 20px;
     height: auto;
     width: 500px;
-    background-color: #eff0eb;
-    box-shadow: 0px 8px 13px 0px rgba(77, 86, 45, 0.65);
+}
+.riga{
+    position: absolute;
+    top: 720px;
+    left: 48%;
+    width: 0px !important;
+    height: 300px !important;
+    border: 2px solid #566132;
 }
 
 .welcome div h4 {

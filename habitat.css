@@ -134,11 +134,11 @@ li {
 .erbivori .prima-r .bc a{
     text-decoration: none;
     position: absolute;
-    top: 665%;
-    left: 19.7%;
+    top: 702.7%;
+    left: 33%;
     background-color: white;
     opacity: 0.85;
-    padding: 10px 35px;
+    padding: 30px 40px;
 }
 .erbivori .prima-r .bc a h4{
     color: #056688;
@@ -202,8 +202,9 @@ li {
 .erbivori .prima-r .fort a{
     text-decoration: none;
     position: absolute;
-    top: 702.5%;
-    left: 33%;
+    
+    top: 665%;
+    left: 19.7%;
     background-color: white;
     opacity: 0.85;
     padding: 20px 30px;

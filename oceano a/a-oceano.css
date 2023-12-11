@@ -1,0 +1,123 @@
+
+
+
+.freccia{
+    position: absolute;
+    top:130px;
+    left: 40px;
+    transform: rotate(180deg);
+}
+.a-fre {
+        position: absolute;
+        top:150px;
+        right: 40px;
+        transform: rotate(-90deg);
+        padding: 8px;
+        border-radius: 50px;
+        background-color: #73aabd;
+        box-shadow: -1px 3px 10px 6px rgba(33, 80, 96, 0.58);
+}
+
+.titolo{
+    padding-top: 110px;
+}
+
+.titolo h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "semi bold";
+    color: #04526d;
+    text-shadow: 1px 1px 4px rgba(2, 49, 65,0.84);
+}
+
+
+
+.t-buf{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h2{
+    text-align: left;
+    font-size: 30px;
+    font-family: "semi bold";
+    color: #04526d;
+    text-shadow: 1px 1px 3px rgba(2, 49, 65,0.5);
+}
+
+.t-buf p{
+    padding:0px 15px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "light";
+}
+
+.foto{
+    width: 700px;
+    height: 400px;
+    margin-left: 27%;
+}
+.foto img{
+    object-fit: cover;
+}
+
+.n-b{
+    background-color: #3785a0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.n-b h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "semi bold";
+    color: #f8f0e9;
+    text-shadow: 1px 3px 5px rgba(2, 49, 65,0.76);
+    margin: 0;
+}
+
+.prima-r{
+    display: flex;
+    padding: 10px;
+    margin-left: 11%;
+}
+.prima-r img{
+    height: 210px;
+    width: 210px;
+    box-shadow: 0px 5px 17px -2px #023141;
+}
+
+.prima-r .bal{
+    margin: 20px 5%;
+}
+.prima-r .mar{
+    margin: 20px 7%;
+}
+.prima-r .ze{
+    margin: 20px 3%;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: "semi bold";
+    text-shadow: 1px 1px 3px rgba(33, 80, 96,0.5);
+    color: #f8f0e9;
+    margin: 0;
+    padding: 10px;
+}
+.prima-r p{
+    font-family: "light";
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+}
+
+ul li p strong{
+    font-family: "regular";
+    color: #04526d;
+}
+ul li{
+    list-style-type: none;
+}

@@ -1,0 +1,307 @@
+.casetta{
+    position: absolute;
+    top:500px;
+    left: 40px;
+}
+
+.freccia{
+    position: absolute;
+    top:500px;
+    right: 40px;
+    transform: rotate(90deg);
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #f6f8f8;
+    box-shadow: -1px  3px 10px 6px rgba(210,213,213,0.58);
+}
+.foto-man {
+    width: 100%;
+    height: 350px;
+    padding-top: 110px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.foto-man h1 {
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    left: 20%;
+    font-size: 80px;
+    font-family: "semi bold";
+    color: #fefcfa;
+    text-shadow: #30361c 4px 4px 2px;
+}
+
+.s-spieg {
+    padding: 20px;
+    margin-left: 13%;
+    margin-right: 13%;
+
+
+}
+
+.s-spieg h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "semi bold";
+    color: #274e46;
+    text-shadow: 1px 1px 4px rgba(27, 55, 49,0.84);
+}
+
+.s-spieg h3 {
+    text-align: left;
+    font-size: 30px;
+    font-family: "semi bold";
+    color: #274e46;
+    text-shadow: 1px 1px 3px rgba(27, 55, 49,0.5);
+}
+
+.punti li{
+ list-style-type:circle;
+}
+.punti li strong{
+    color: #274e46;
+    font-family: "regular";
+}
+.s-spieg p,
+ul,
+li {
+    padding-left: 15px;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    font-family: "light";
+    list-style-type: none;
+}
+
+.s-spieg .s-t {
+    font-family: "regular";
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.s-an {
+    background-color: #3d6059;
+}
+
+.s-an h2 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 65px;
+    font-family: "semi bold";
+    color: #f8f0e9;
+    text-shadow: 1px 3px 5px rgba(27, 55, 49,0.76);
+}
+
+.s-an h3 {
+    margin-top: 10px;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 50px;
+    font-family: "semi bold";
+    color: #f8f0e9;
+}
+
+.erbivori .prima-r{
+    display: flex;
+    padding: 10px;
+    margin-left: 11%;
+}
+
+.erbivori .cas, .coc, .lam, .lon, .orn, .pro, .tar, .var{
+    margin: 0px 3%;
+    background-color: #fefcfa;
+    height: 210px;
+    width: 210px;
+    text-align: center;
+    box-shadow: 0px 5px 17px -2px #172f2a;
+}
+.erbivori .prima-r .cas a{
+    text-decoration: none;
+    position: absolute;
+    top: 321.7%;
+    left: 15.15%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 38px;
+}
+.erbivori .prima-r .cas a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .prima-r .cas a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .prima-r .coc a{
+    text-decoration: none;
+    position: absolute;
+    top: 321.7%;
+    left: 34.3%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 13px;
+}
+.erbivori .prima-r .coc a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .prima-r .coc a:hover{
+    opacity: 0;
+}
+
+
+
+.erbivori .prima-r .lam a{
+    text-decoration: none;
+    position: absolute;
+    top: 321.7%;
+    left: 53.55%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 17px;
+}
+.erbivori .prima-r .lam a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .prima-r .lam a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .prima-r .lon a{
+    text-decoration: none;
+    position: absolute;
+    top: 321.7%;
+    left: 72.75%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 30px 48px;
+}
+.erbivori .prima-r .lon a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 28px;
+    text-align: center;
+}
+
+.erbivori .prima-r .lon a:hover{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.erbivori .seconda-r{
+    display: flex;
+    padding: 10px;
+    margin-left: 11%;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+
+.erbivori .seconda-r  .orn a{
+    text-decoration: none;
+    position: absolute;
+    top: 358.2%;
+    left: 15.15%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 13px;
+}
+.erbivori .seconda-r  .orn a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r  .orn a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .seconda-r  .pro a{
+    text-decoration: none;
+    position: absolute;
+    top: 358.2%;
+    left: 34.35%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 31px;
+}
+.erbivori .seconda-r  .pro a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r  .pro a:hover{
+    opacity: 0;
+}
+
+
+
+.erbivori .seconda-r  .tar a{
+    text-decoration: none;
+    position: absolute;
+    top: 358.2%;
+    left: 53.5%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 26px;
+}
+.erbivori .seconda-r  .tar a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r  .tar a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .seconda-r  .var a{
+    text-decoration: none;
+    position: absolute;
+    top: 358.2%;
+    left: 72.75%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 40px;
+}
+.erbivori .seconda-r  .var a h4{
+    color: #274e46;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r .var a:hover{
+    opacity: 0;
+}

@@ -32,7 +32,7 @@
     font-size: 80px;
     font-family: "semi bold";
     color: #fefcfa;
-    text-shadow: #30361c 4px 4px 2px;
+    text-shadow: rgb(0, 60, 19) 4px 4px 2px;
 }
 
 .s-spieg {
@@ -47,23 +47,23 @@
     text-align: center;
     font-size: 60px;
     font-family: "semi bold";
-    color: #274e46;
-    text-shadow: 1px 1px 4px rgba(27, 55, 49,0.84);
+    color: #006420;
+    text-shadow: 1px 1px 4px rgba(0, 60, 19,0.84);
 }
 
 .s-spieg h3 {
     text-align: left;
     font-size: 30px;
     font-family: "semi bold";
-    color: #274e46;
-    text-shadow: 1px 1px 3px rgba(27, 55, 49,0.5);
+    color: #006420;
+    text-shadow: 1px 1px 3px rgba(0, 60, 19,0.5);
 }
 
 .punti li{
  list-style-type:circle;
 }
 .punti li strong{
-    color: #274e46;
+    color: #006420;
     font-family: "regular";
 }
 .s-spieg p,
@@ -84,7 +84,7 @@ li {
     padding-right: 150px;
 }
 .s-an {
-    background-color: #3d6059;
+    background-color: #003c13;
 }
 
 .s-an h2 {
@@ -95,17 +95,15 @@ li {
     font-size: 65px;
     font-family: "semi bold";
     color: #f8f0e9;
-    text-shadow: 1px 3px 5px rgba(27, 55, 49,0.76);
+    text-shadow: 1px 3px 5px rgba(0, 30, 10,0.76);
 }
 
-.s-an h3 {
-    margin-top: 10px;
-    margin-left: 3%;
-    text-align: left;
-    font-size: 50px;
-    font-family: "semi bold";
-    color: #f8f0e9;
-}
+
+
+
+
+
+
 
 .erbivori .prima-r{
     display: flex;
@@ -113,95 +111,95 @@ li {
     margin-left: 11%;
 }
 
-.erbivori .cas, .coc, .lam, .lon, .orn, .pro, .tar, .var{
+.erbivori .an, .bra, .cap, .gia, .lem, .sci, .tig, .ucc{
     margin: 0px 3%;
     background-color: #fefcfa;
     height: 210px;
     width: 210px;
     text-align: center;
-    box-shadow: 0px 5px 17px -2px #172f2a;
+    box-shadow: 0px 5px 17px -2px rgb(0, 30, 10);
 }
-.erbivori .prima-r .cas a{
+.erbivori .prima-r .an a{
     text-decoration: none;
     position: absolute;
-    top: 321.7%;
+    top: 253.5%;
     left: 15.15%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 38px;
+    padding: 27px 21px;
 }
-.erbivori .prima-r .cas a h4{
-    color: #274e46;
+.erbivori .prima-r .an  a h4{
+    color: #004616;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .cas a:hover{
+.erbivori .prima-r .an  a:hover{
     opacity: 0;
 }
 
 
-.erbivori .prima-r .coc a{
+.erbivori .prima-r .bra a{
     text-decoration: none;
     position: absolute;
-    top: 321.7%;
-    left: 34.3%;
+    top: 253.5%;
+    left: 34.4%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 13px;
+    padding: 27px 37px;
 }
-.erbivori .prima-r .coc a h4{
-    color: #274e46;
+.erbivori .prima-r .bra a h4{
+    color: #004616;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .coc a:hover{
+.erbivori .prima-r .bra a:hover{
     opacity: 0;
 }
 
 
 
-.erbivori .prima-r .lam a{
+.erbivori .prima-r .cap a{
     text-decoration: none;
     position: absolute;
-    top: 321.7%;
+    top: 253.5%;
     left: 53.55%;
     background-color: white;
     opacity: 0.9;
-    padding: 27px 17px;
+    padding: 27px 25px;
 }
-.erbivori .prima-r .lam a h4{
-    color: #274e46;
+.erbivori .prima-r .cap a h4{
+    color: #004616;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .lam a:hover{
+.erbivori .prima-r .cap a:hover{
     opacity: 0;
 }
 
 
-.erbivori .prima-r .lon a{
+.erbivori .prima-r .gia a{
     text-decoration: none;
     position: absolute;
-    top: 321.7%;
-    left: 72.75%;
+    top: 253.5%;
+    left: 72.7%;
     background-color: white;
     opacity: 0.9;
-    padding: 30px 48px;
+    padding: 27px 29px;
 }
-.erbivori .prima-r .lon a h4{
-    color: #274e46;
+.erbivori .prima-r .gia a h4{
+    color: #004616;
     font-family: "medium";
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
 }
 
-.erbivori .prima-r .lon a:hover{
+.erbivori .prima-r .gia a:hover{
     opacity: 0;
 }
 
@@ -222,86 +220,86 @@ li {
     padding-bottom: 70px;
 }
 
-.erbivori .seconda-r  .orn a{
+.erbivori .seconda-r  .lem a{
     text-decoration: none;
     position: absolute;
-    top: 358.2%;
-    left: 15.15%;
-    background-color: white;
-    opacity: 0.9;
-    padding: 27px 13px;
-}
-.erbivori .seconda-r  .orn a h4{
-    color: #274e46;
-    font-family: "medium";
-    font-size: 30px;
-    text-align: center;
-}
-
-.erbivori .seconda-r  .orn a:hover{
-    opacity: 0;
-}
-
-
-.erbivori .seconda-r  .pro a{
-    text-decoration: none;
-    position: absolute;
-    top: 358.2%;
-    left: 34.35%;
-    background-color: white;
-    opacity: 0.9;
-    padding: 27px 31px;
-}
-.erbivori .seconda-r  .pro a h4{
-    color: #274e46;
-    font-family: "medium";
-    font-size: 30px;
-    text-align: center;
-}
-
-.erbivori .seconda-r  .pro a:hover{
-    opacity: 0;
-}
-
-
-
-.erbivori .seconda-r  .tar a{
-    text-decoration: none;
-    position: absolute;
-    top: 358.2%;
-    left: 53.5%;
-    background-color: white;
-    opacity: 0.9;
-    padding: 27px 26px;
-}
-.erbivori .seconda-r  .tar a h4{
-    color: #274e46;
-    font-family: "medium";
-    font-size: 30px;
-    text-align: center;
-}
-
-.erbivori .seconda-r  .tar a:hover{
-    opacity: 0;
-}
-
-
-.erbivori .seconda-r  .var a{
-    text-decoration: none;
-    position: absolute;
-    top: 358.2%;
-    left: 72.75%;
+    top: 289.8%;
+    left: 15.3%;
     background-color: white;
     opacity: 0.9;
     padding: 27px 40px;
 }
-.erbivori .seconda-r  .var a h4{
-    color: #274e46;
+.erbivori .seconda-r  .lem a h4{
+    color: #004616;
     font-family: "medium";
     font-size: 30px;
     text-align: center;
 }
 
-.erbivori .seconda-r .var a:hover{
+.erbivori .seconda-r  .lem a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .seconda-r  .sci a{
+    text-decoration: none;
+    position: absolute;
+    top: 289.8%;
+    left: 34.39%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 31px;
+}
+.erbivori .seconda-r  .sci a h4{
+    color: #004616;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r  .sci a:hover{
+    opacity: 0;
+}
+
+
+
+.erbivori .seconda-r  .tig a{
+    text-decoration: none;
+    position: absolute;
+    top: 289.8%;
+    left: 53.6%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 55px;
+}
+.erbivori .seconda-r   .tig a h4{
+    color: #004616;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r  .tig a:hover{
+    opacity: 0;
+}
+
+
+.erbivori .seconda-r  .ucc a{
+    text-decoration: none;
+    position: absolute;
+    top: 289.8%;
+    left: 72.75%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 27px 45px;
+}
+.erbivori .seconda-r  .ucc a h4{
+    color: #004616;
+    font-family: "medium";
+    font-size: 30px;
+    text-align: center;
+}
+
+.erbivori .seconda-r .ucc a:hover{
     opacity: 0;
 }

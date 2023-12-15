@@ -1,0 +1,39 @@
+.casetta {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+}
+
+.corpo{
+    background-color: #c37b3b;
+    padding: 0 200px;
+}
+
+.corpo h1 {
+    margin: 0;
+    padding: 30px;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "semi bold";
+    color: #f8f0e9;
+    text-shadow: 1px 1px 4px rgba(113, 65, 22, 0.84);
+}
+.corpo h2 {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-family: "semi bold";
+    color: #f8f0e9;
+    text-shadow: 1px 1px 4px rgba(113, 65, 22, 0.84);
+}
+.corpo p{
+    font-family: "light";
+    text-align: justify;
+    font-size: 19px;
+    margin: 0;
+    padding: 15px;
+    padding-left: 35px;
+    color: #38200b;
+}

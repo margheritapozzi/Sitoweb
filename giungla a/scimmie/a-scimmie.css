@@ -14,8 +14,8 @@
         transform: rotate(-90deg);
         padding: 8px;
         border-radius: 50px;
-        background-color: #73aabd;
-        box-shadow: -1px 3px 10px 6px rgba(33, 80, 96, 0.58);
+        background-color: #80b290;
+        box-shadow: -1px 3px 10px 6px rgba(3, 48, 18, 0.58);
 }
 
 .titolo{
@@ -62,7 +62,7 @@ h2{
 }
 
 .n-b{
-    background-color: #3785a0;
+    background-color: #00501a;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 80px;
@@ -74,7 +74,7 @@ h2{
     font-size: 50px;
     font-family: "semi bold";
     color: #f8f0e9;
-    text-shadow: 1px 3px 5px rgba(0, 60, 19,0.76);
+    text-shadow: 1px 3px 5px rgba(0, 30, 10,0.76);
     margin: 0;
 }
 

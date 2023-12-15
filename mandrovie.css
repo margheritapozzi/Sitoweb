@@ -66,9 +66,15 @@
     color: #274e46;
     font-family: "regular";
 }
-.s-spieg p,
-ul,
-li {
+.s-spieg p {
+    padding-left: 15px;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    font-family: "light";
+    list-style-type: none;
+}
+.s-spieg ul {
     padding-left: 15px;
     text-align: justify;
     font-size: 18px;

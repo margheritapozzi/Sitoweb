@@ -24,6 +24,15 @@ body {
     margin: 0;
 }
 
+.puntina{
+    height: 45px;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 1329px;
+    left: 465px;
+}
+
+
 /*menu*/
 
 header {
@@ -233,6 +242,9 @@ img {
 
 .att {
     width: 300px;
+    padding: 15px;
+    
+    padding-top: 20px;
     padding-bottom: 0px;
     margin-left: 10%;
     margin-top: 30px;
@@ -340,15 +352,19 @@ img {
 }
 
 .ev .eprimo div h4 a:hover {
-    background-color: #bc6c25;
+    background-color: #bc6c25 !important;
+}
+.ev .eprimo div h4 a:active {
+    background-color: #bc6c25 !important;
 }
 
 .ev .eprimo div h4 a:focus {
-    background-color: #bc6c25;
+    background-color: #bc6c25 !important;
 }
 
 .ev .eprimo div h4 a:visited {
     color: #fcf6ef;
+    background-color: #a96121;
 }
 
 
@@ -405,128 +421,3 @@ footer a {
 
 
 
-/*modulo form
-option {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 2px;
-}
-
-input[type="radio"] {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-input[type="text"] {
-    padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #0C273C;
-}
-
-input[type="date"] {
-    padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-input[type="password"] {
-    padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-input[type="email"] {
-    padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/*div che contiene l'iscrizione
-.iscrizione {
-    position: absolute;
-    top: 160px;
-    left: 550px;
-
-    width: 500px;
-    background-color: #657a89;
-    border: 3px solid white;
-}
-
-/*h2 dell'iscrizione
-.scrittamod {
-    text-align: center;
-    color: #fff;
-}
-
-.p_i {
-    color: #fff;
-    text-align: center;
-    margin-top: 180px;
-    font-size: 40px;
-    padding: 20px;
-}
-
-/*div che contengono i vari moduli (nome, nascita e genere)
-.nome {
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.nascita {
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.gen {
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.email{
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.pass{
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-/*p nei div dei modulic he danno il titolo
-.mod {
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/*bottone
-.invia {
-    margin-left: 150px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-input[type="submit"] {
-    padding: 8px;
-    font-size: 17px;
-    font-weight: 600;
-    margin-right: 15px;
-}
-input[type="submit"]:hover {
-    
-    -webkit-box-shadow: 5px 4px 17px 0px rgba(12, 39, 60, 0.62);
-    box-shadow: 5px 4px 17px 0px rgba(12, 39, 60, 0.62);
-}
-input[type="reset"] {
-    padding: 5px;
-    font-size: 17px;
-    font-weight: 600;
-    margin-right: 15px;
-}
-input[type="reset"]:hover {
-    
-    -webkit-box-shadow: 5px 4px 17px 0px rgba(12, 39, 60, 0.62);
-    box-shadow: 5px 4px 17px 0px rgba(12, 39, 60, 0.62);
-}

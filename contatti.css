@@ -32,18 +32,21 @@
     font-family: "semi bold";
     color: #606c38;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.84);
 }
 .c-testo h2{
     font-size: 35px;
     font-family: "semi bold";
     color: #606c38;
     margin-bottom: 50px;
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.84);
 }
 .c-testo h2 a{
     font-size: 35px;
     font-family: "semi bold";
     color: #c37b3b;
     text-decoration: none;
+    text-shadow: 1px 1px 4px rgb(132, 76, 26,0.84);
 }
 .c-testo h2 a:hover{
     color: #9c622f;
@@ -58,6 +61,7 @@ table{
     border-collapse: collapse;
     font-size: 20px;
     margin-bottom: 60px;
+    box-shadow: 0px 5px 17px -2px rgb(33, 38, 3);
 }
 table .t{
     padding: 15px;
@@ -65,6 +69,7 @@ table .t{
     text-align: justify;
     border: #606c38 2px solid;
     font-family: "regular";
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.3);
 }
 table .i{
     color: #fefcfa;
@@ -74,7 +79,9 @@ table .i{
     text-align: justify;
     border: #606c38 2px solid;
     font-family: "semi bold";
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.84);
 }
 table .i a{
-    color: #cf9562;
+    color: #d09866;
+    text-shadow: 1px 1px 4px rgb(132, 76, 26,0.84);
 }

@@ -6,16 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iscrizione</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="iscrizione.css">
 </head>
 
 <body>
-    <div class="menu">
-        <img class="logo" src="foto/Immagine1.png" alt="logo">
-        <h1 style="margin-left: 20%;">titolo 1</h1>
-        <h1>titolo 2</h1>
-        <h1>titolo 3</h1>
-        <h1>titolo 4</h1>
-    </div>
 
     <div class="iscrizione">
         <h2 class="scrittamod">Iscriviti al nostro sito!</h2>
@@ -27,17 +21,17 @@
             </div>
 
             <div class="nascita">
-                <p class="mod">Data di nascita:</p>
-                <input type="date">
+                <p class="mod">Data Visita:</p>
+                <select name="var_c[]" id="" size="2" multiple>
+                    <option value="">2 Dicembre</option>
+                    <option value="">9 Dicembre</option>
+                    <option value="">16  Dicembre</option>
+                    <option value="">24 Dicembre</option>
+                    <option value="">31 Dicembre</option>
+                </select>
 
             </div>
-
-            <div class="gen">
-                <p class="mod">Genere:</p>
-                <input type="radio" name="scelta_gen" value="Uomo">Uomo
-                <input type="radio" name="scelta_gen" value="Donna">Donna
-                <input type="radio" name="scelta_gen" value="altro">Altro
-            </div>
+            
 
             <div class="email">
                 <p class="mod">Email:</p>
@@ -52,6 +46,11 @@
             </div>
         </form>
     </div>
+    <div class="post-i">
+        <h2 class="p_i">Grazie per esserti iscritto al nostro sito!</h2>
+        
+    </div>
+
 </body>
 
 </html>

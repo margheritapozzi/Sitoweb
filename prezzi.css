@@ -16,19 +16,20 @@
     font-size: 80px;
     font-family: "semi bold";
     color: #fefcfa;
-    text-shadow: #283618 4px 4px 4px;
+    text-shadow: 1px 1px 4px rgba(135,78,26,0.84);
 }
 
 
 .p-b{
-    background-color: white;
+    background-color: #faf4ef;
     padding: 40px;
 }
 .p-b h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     font-family: "medium";
     color: #bc6c25;
+    text-shadow: 1px 1px 4px rgba(135,78,26,0.84);
     letter-spacing: 2px;
 }
 .p-b p{
@@ -40,38 +41,31 @@
 }
 
 .prezzi{
-    background-color: #566132;
+    background-color: #c98951;
     margin: 0;
-    padding: 50px 80px;
+    padding: 70px 20px;
     display: flex;
 }
 .gruppi{
     margin-top: 45px;
     height: fit-content;
-    border: 2px solid #606c38;
     padding: 20px;
-    background-color: #e9edc9;
+    background-color: #d8aa81;
+    box-shadow: 0px 8px 13px 0px rgba(132, 76, 26, 0.65);
     margin-left: 70px;
-    margin-left: 5%;
 }
-.scuole{
-    margin-top: 45px;
-    height: fit-content;
-    border: 2px solid #606c38;
-    padding: 20px;
-    background-color: #e9edc9;
-}
+
 .giornaliero{
     width: 600px;
-    border: 2px solid #606c38;
     padding: 10px;
-    background-color: #e9edc9;
-    margin-left: 5%;
+    background-color: #d8aa81;
+    box-shadow: 0px 8px 13px 0px rgba(132, 76, 26, 0.65);
 }
 .prezzi h1{
     padding: 20px;
     margin: 0;
-    color: #566132;
+    color: #714116;
+    text-shadow: 1px 1px 4px rgba(75, 43, 15,0.84);
     text-align: center;
     font-size: 35px;
     font-family: "semi bold";
@@ -82,7 +76,8 @@
     padding: 10px;
     height: 30px;
     padding-left: 15px;
-    color: #434c27;
+    color: #844c1a;
+    text-shadow: 1px 1px 3px rgba(135,78,26,0.5);
     text-align: justify;
     font-size: 20px;
     font-family: "regular";
@@ -91,7 +86,7 @@
     margin: 0;
     padding: 5px;
     padding-left: 15px;
-    color: #30361c;
+    color: #38200b;
     text-align: left;
     font-size: 15px;
     font-family: "light";
@@ -101,7 +96,7 @@
     width: 350px;
     margin: 0;
     padding: 5px;
-    color: #30361c;
+    color: #38200b;
     text-align: left;
     font-size: 13px;
     font-family: "light";

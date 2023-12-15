@@ -16,15 +16,16 @@
     font-size: 80px;
     font-family: "semi bold";
     color: #fefcfa;
-    text-shadow: #5b3819 4px 4px 4px;
+    text-shadow: #292f04 4px 4px 4px;
 }
 
 .orario h1 {
     font-size: 40px;
     text-align: center;
     font-family: "medium";
-    color: #bc6c25;
+    color: #525e08;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.84);
 }
 .orario p{
    
@@ -39,30 +40,39 @@
     background-color: #808960;
     display: flex;
 }
+.t-orario div{
+    padding: 50px;
+    width: 600px;
+}
 
+.o-f{
+    margin-left: 4%;
+}
 .t-orario h2{
     font-size: 25px;
     text-align: center;
     font-family: "medium";
     color: #fefcfa;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.84);
 }
 .t-orario p{
     font-size: 18px;
     text-align:justify;
     font-family: "regular";
     color: black;
+    padding: 20px 50px;
 }
 
 .t-orario table{
     border-collapse: collapse;
     font-size: 20px;
     margin-bottom: 60px;
+    box-shadow: 0px 5px 17px -2px rgb(33, 38, 3);
 }
 .t-orario table .o{
     padding: 15px 20px;
     text-align: justify;
-    border: #606c38 2px solid;
     font-family: "regular";
     background-color: #fefcfa;
 }
@@ -71,18 +81,7 @@
     background-color: #283618;
     padding: 15px 20px;
     text-align: justify;
-    border: #606c38 2px solid;
     font-family: "semi bold";
-}
-
-.o-f{
-    margin-left: 200px;
-    padding: 30px 50px;
-    width: 400px;
-}
-.o-s{
-    padding: 30px 80px; 
-    width: 400px;
 }
 
 .weekend p{
@@ -99,13 +98,19 @@
     font-size: 30px;
     text-align: center;
     font-family: "medium";
-    color: #bc6c25;
     letter-spacing: 2px;
+    color: #525e08;
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.84);
 }
 .weekend h3{
     font-size: 25px;
     text-align: center;
     font-family: "medium";
-    color: #bc6c25;
+    color: #525e08;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(57, 66, 6,0.84);
+}
+.weekend{
+    background-color: #eeefe6;
+    padding: 30px;
 }

@@ -60,9 +60,15 @@
     text-shadow: 1px 1px 3px rgba(135,78,26,0.5);
 }
 
-.s-spieg p,
-ul,
-li {
+.s-spieg p{
+    padding-left: 15px;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    font-family: "light";
+    list-style-type: none;
+}
+.s-spieg ul{
     padding-left: 15px;
     text-align: justify;
     font-size: 18px;

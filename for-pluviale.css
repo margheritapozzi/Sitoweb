@@ -28,7 +28,7 @@
     text-align: center;
     position: absolute;
     top: 170px;
-    left: 20%;
+    left: 27%;
     font-size: 80px;
     font-family: "semi bold";
     color: #fefcfa;
@@ -66,9 +66,7 @@
     color: #006420;
     font-family: "regular";
 }
-.s-spieg p,
-ul,
-li {
+.s-spieg p{
     padding-left: 15px;
     text-align: justify;
     font-size: 18px;
@@ -76,7 +74,14 @@ li {
     font-family: "light";
     list-style-type: none;
 }
-
+.s-spieg ul{
+    padding-left: 15px;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    font-family: "light";
+    list-style-type: none;
+}
 .s-spieg .s-t {
     font-family: "regular";
     text-align: center;

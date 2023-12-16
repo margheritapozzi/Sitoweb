@@ -59,12 +59,12 @@
 }
 table{
     border-collapse: collapse;
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 60px;
     box-shadow: 0px 5px 17px -2px rgb(33, 38, 3);
 }
 table .t{
-    padding: 15px;
+    padding: 20px 30px;
     width: 100px;
     text-align: justify;
     border: #606c38 2px solid;
@@ -74,7 +74,7 @@ table .t{
 table .i{
     color: #fefcfa;
     background-color: #7e885e;
-    padding: 15px;
+    padding: 20px 30px;
     width: 250px;
     text-align: justify;
     border: #606c38 2px solid;

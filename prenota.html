@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busto Park - Attività</title>
-    <link rel="stylesheet" href="attività.css">
+    <link rel="stylesheet" href="prenota.css">
     <link rel="stylesheet" href="barra-in-fondo-con-il-logo.css">
     <link rel="stylesheet" href="social.css">
     <link rel="stylesheet" href="index.css">
@@ -120,55 +120,35 @@
     </div>
 
     <div class="atti">
-        <h2>Passeggiata Invernale</h2>
-        <div style="margin-left: 2%;">
-            <h3>Evento</h3>
-            <p>
-                Unisciti a noi per un'esperienza unica sotto le stelle al nostro evento speciale del mese di dicembre:
-                la "Passeggiata Magica nello Zoo". Esplora il nostro zoo in una notte incantata, mentre gli animali
-                invernali si preparano a festeggiare le festività. <br> <br>
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon src="https://cdn.lordicon.com/wmlleaaf.json" trigger="hover" colors="primary:#4a5f77"
-                    style="width:30px;height:30px; position: relative; top:7px">
-                </lord-icon> <strong>Data:</strong> Ogni sabato di Dicembre <br>
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon src="https://cdn.lordicon.com/kgdqzapd.json" trigger="hover" colors="primary:#4a5f77"
-                    style="width:30px;height:30px; position: relative; top:7px; padding-right: 4px;">
-                </lord-icon><strong>Ora:</strong> 18:00 - 21:30
-            </p>
-            
-            <p class="data">
-                 Prenota ora! Posti limitati per garantire un'esperienza intima e coinvolgente.
-            </p>
-            
-        </div>
+        <h2>Prenota ora!</h2>
 
-        <div class="riga1"></div>
+        <form action="prenota-dopo.html" name="m" method="post">
+            <div class="nome">
+                <p class="mod">Nome e cognome: <br></p>
+                <input type="text" name="nome" placeholder="inserire nome" maxlength="15">
+                <input type="text" name="cogn" placeholder="inserire cognome" maxlength="15" style="margin-left: 20px;">
+            </div>
 
-        <div class="prog">
-            <h3>Programma</h3>
-                <h6><strong>18:00 - 18:30</strong>Benvenuto Caldo</h6>
-                <p class="elenco">Accoglienza con bevande natalizie e cioccolata calda.</p>
+            <div class="nascita">
+                <p class="mod">Data visita:</p>
+                <input type="date" min="2023-12-02" max="2023-12-30" step="7">
 
-                <h6><strong>18:30 - 19:00</strong>Animali Illuminati</h6>
-                <p class="elenco">Tour guidato tra luci natalizie e scopri gli animali notturni e quelli attivi durante l'inverno.</p>
-                
-                <h6><strong>19:00 - 20:00</strong>Cena Invernale</h6>
-                <p class="elenco">Deliziose opzioni di cibo invernale.</p>
-                
-                <h6><strong>20:00 - 20:30</strong>Luci e Musica</h6>
-                <p class="elenco">Uno spettacolo di luci sincronizzate a una colonna sonora festiva.</p>
+            </div>
 
-        </div>
-        <script src="https://cdn.lordicon.com/lordicon.js"></script>
-        <lord-icon src="https://cdn.lordicon.com/abvsilxn.json" trigger="hover" colors="primary:#4a5f77"
-            style="width:50px;height:50px; position: absolute; top: 1080px; left: 412px;">
-        </lord-icon>
-    <h5><a href="prenota.html">Prenota ora !</a></h5>
+            <div class="num">
+                <p class="mod">Numero persone:</p>
+                <input type="number" min="1" max="10" style="padding: 5px 10px;">
+
+            </div>
+
+            <div class="invia">
+                <input type="submit" value="Iscriviti!" class="send">
+            </div>
+        </form>
     </div>
 
 
-    
+
 
 
     <div class="social">

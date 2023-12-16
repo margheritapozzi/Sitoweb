@@ -381,7 +381,7 @@ img {
 .contatti h1 {
     font-size: 40px;
     text-align: center;
-    font-family: "medium";
+    font-family: "semi bold";
     color: #844c1a;
     text-shadow: 1px 1px 4px rgba(135,78,26,0.84);
     letter-spacing: 2px;
@@ -394,7 +394,7 @@ img {
     background-color: #c37b3b;
     color: #fcfcfc;
     text-decoration: none;
-    font-family: "meidum";
+    font-family: "semi bold";
     font-size: 25px;
     margin-left: 43.5%;
     text-transform: uppercase;

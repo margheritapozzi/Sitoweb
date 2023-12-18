@@ -1,0 +1,100 @@
+.fotos {
+    width: 100%;
+    height: 380px;
+    padding-top: 100px;
+}
+.fotos h1 {
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    font-size:90px;
+    font-family: "semi bold";
+    color: #fefcfa;
+    text-shadow: 2px 2px 5px rgba(38, 43, 22, 0.9);
+}
+
+
+.corpo{
+    padding: 50px 0px;
+    background-color: #f2f3ef;
+}
+.corpo .intro{
+    padding: 30px 200px;
+    text-align: justify;
+    font-family: "regular";
+    font-size: 18px;
+    color: #16190f;
+}
+
+.corpo h1{
+    padding-top: 55px;
+    font-family: "semi bold";
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(38, 43, 22, 0.7);
+}
+.corpo p{
+    padding: 10px 250px;
+    text-align: justify;
+    font-family: "light";
+    font-size: 18px;
+    color: #16190f;
+    margin: 0;
+}
+.corpo h3{
+    margin: 0;
+    padding: 15px 230px;
+    padding-top: 30px;
+    font-family: "semi bold";
+    font-size: 28px;
+    text-align: left;
+    color: #606c38;
+    text-shadow: 2px 2px 5px rgba(38, 43, 22, 0.5);
+
+}
+
+.titolo-ft{
+    height: 200px;
+    background-image: url(foto/alberi.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.titolo-fm{
+    height: 200px;
+    background-image: url(foto/p-mangrovie.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.titolo-fp{
+    height: 200px;
+    background-image: url(foto/ppluviale.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.titolo-o{
+    height: 200px;
+    background-image: url(foto/poceano.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.titolo-s{
+    height: 200px;
+    background-image: url(foto/psavana.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sotto{
+    text-align: center !important;
+}

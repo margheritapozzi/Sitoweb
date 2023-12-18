@@ -68,3 +68,8 @@ div .fot img{
 div .testo{
     padding: 20px 100px;
 }
+
+div .par-ti{
+    padding: 30px 100px 20px 100px;
+    text-align: center;
+}

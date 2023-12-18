@@ -37,12 +37,24 @@ nav li a:focus{
     color: #3e4125;
     text-decoration: underline;
 }
+
+
+.tit-t{
+    font-family: "medium";
+    font-size: 21px;
+    color: #585D35;
+    text-align: left;
+    text-shadow: none;
+    padding: 0px;
+    margin: 20px;
+    margin-bottom: 0;
+}
 /*Menu tendina parco*/
 
 .p-t{
     position: absolute;
     top: 66px;
-    left: 350px;
+    left: 330px;
     text-align: left;
     padding:0 20px;
     display: flex;
@@ -68,11 +80,7 @@ nav li a:focus{
     margin: 0;
     padding:0 20px;
 }
-.p-t h4{
-    margin-bottom: 0;
-    font-family: "regular";
-    font-size: 20px;
-}
+
 
 /*Menu tendina animli*/
 .a-t{
@@ -104,17 +112,12 @@ nav li a:focus{
     margin: 0;
     padding:0 20px;
 }
-.a-t h4{
-    margin-bottom: 0;
-    font-family: "regular";
-    font-size: 20px;
-}
 
 /*Menu tendina informaizoni*/
 .i-t{
     position: absolute;
     top: 66px;
-    left: 890px;
+    left: 910px;
     padding:0 20px;
     text-align: left;
     display: flex;
@@ -139,11 +142,6 @@ nav li a:focus{
 .i-t .per{
     margin: 0;
     padding:0 20px;
-}
-.i-t h4{
-    margin-bottom: 0;
-    font-family: "regular";
-    font-size: 20px;
 }
 
 

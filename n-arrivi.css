@@ -1,0 +1,89 @@
+.foto-sav {
+    width: 100%;
+    height: 350px;
+    padding-top: 110px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.foto-sav h1 {
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 17%;
+    font-size: 75px;
+    font-family: "semi bold";
+    color: #fefcfa;
+    text-shadow: #262b16 4px 4px 4px;
+}
+
+
+
+.piccoli {
+    background-color: #7e885e;
+    padding: 30px 0;
+}
+.piccoli p{
+    color: #243116;
+    font-family: "regular";
+    font-size: 18px;
+    padding: 10px 200px 20px 200px;
+    text-align: center;
+}
+.piccoli h2{
+    margin: 0px;
+    font-family: "semi bold";
+    font-size: 45px;
+    color: #283618;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(38, 43, 22, 0.4);
+}
+
+.disp{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+
+.piccoli .disp .nat {
+    width: 300px;
+    padding: 15px;
+    
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 8%;
+    margin-top: 30px;
+    background-color: #b8bda6;
+    box-shadow: 0px 8px 13px 0px rgba(48, 54, 28, 0.65);
+}
+.piccoli .nat h3 {
+    font-family: "medium";
+    text-shadow: 1px 3px 5px rgba(48, 54, 28, 0.7);
+    color: #434a2e;
+    padding: 10px;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+.piccoli .nat img{
+    box-shadow: 0px 8px 13px 0px rgba(48, 54, 28, 0.65);
+}
+
+.piccoli .disp .nat p {
+    margin: 0;
+    padding: 5px 17px;
+    font-family: "regular";
+    color: #243116;
+    font-size: 15px;
+    text-align: center;
+}
+.piccoli .disp .nat a {
+    margin: 0;
+    padding: 5px;
+    padding-left: 260px;
+    color: #844c1a;
+}
+

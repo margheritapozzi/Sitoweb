@@ -11,6 +11,36 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="shortcut icon" href="foto/logo_pavone-removebg-preview.png">
+
+    <script type="text/javascript"> function validateForm() {
+            var nome = document.forms["m"]["nome"].value;
+            var cognome = document.forms["m"]["cogn"].value;
+            var dataVisita = document.forms["m"]["data"].value;
+            var numeroPersone = document.forms["m"]["nump"].value;
+
+            if (nome == "") {
+                alert("Inserisci il tuo nome.");
+                document.forms["m"]["nome"].focus();
+                return false;
+            }
+            if (cognome == "") {
+                alert("Inserisci il tuo cognome.");
+                document.forms["m"]["cogn"].focus();
+                return false;
+            }
+            if (dataVisita == "") {
+                alert("Inserisci la data della visita.");
+                document.forms["m"]["data"].focus();
+                return false;
+            }
+            if (numeroPersone == "") {
+                alert("Inserisci il numero di persone.");
+                document.forms["m"]["nump"].focus();
+                return false;
+            }
+            return true;
+        }</script>
+
 </head>
 
 <body>
@@ -117,7 +147,7 @@
     <div class="atti">
         <h2>Prenota ora!</h2>
 
-        <form action="prenota-dopo.html" name="m" method="get">
+        <form action="prenota-dopo.html" name="m" method="get" onsubmit="return validateForm()">
             <div class="nome">
                 <p class="mod">Nome e cognome: <br></p>
                 <input type="text" name="nome" placeholder="inserire nome" maxlength="15">
@@ -126,13 +156,13 @@
 
             <div class="nascita">
                 <p class="mod">Data visita:</p>
-                <input type="date" min="2023-12-02" max="2023-12-30" step="7">
+                <input type="date" min="2023-12-02" max="2023-12-30" step="7" name="data">
 
             </div>
 
             <div class="num">
                 <p class="mod">Numero persone:</p>
-                <input type="number" min="1" max="10" style="padding: 5px 10px;">
+                <input type="number" min="1" max="10" style="padding: 5px 10px;" name="nump">
 
             </div>
 
